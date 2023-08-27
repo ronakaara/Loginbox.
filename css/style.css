@@ -1,0 +1,122 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+
+	font-size:14px;
+	line-height: 24px;
+
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif
+
+}
+
+
+
+.login-box{
+	width: 600px;
+	height: auto ;
+	margin: 50px auto;
+	padding: 50px 30px;
+     
+    background:#eee;
+	border: 2px solid  #800080;
+	border-radius: 10px;
+
+
+
+}
+.login{
+	width: 100%;
+	
+}
+.login .avatar{
+	width: 100%;
+	text-align: center;
+}
+.login .avatar img{
+	width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	border: 1px solid #0099ff;
+	margin: 0px 0px 20px;
+}
+.login h1{
+	font-size : 26px;
+	line-height: 36px;
+	font-weight: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	color:   #800080;
+
+
+
+}
+.login .form-group{
+	width: 100%;
+	margin: 15px auto;
+
+	
+}
+.login .form-group label{
+
+	display: block;
+	 
+	padding: 10px 20px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color:   #0099ff;
+}
+
+
+.login .form-group .form-control{
+	width: 90%;
+	padding: 15px 10px;
+	border: 1px solid #800080;
+	border-radius: 5px;
+	background: transparent;
+	font-size: 14px;
+	font-weight: 300;
+	color: #0099ff;}
+
+
+
+
+.login .form-group .btn-primary{
+	padding: 15px 35px;
+	font-size: 10px;
+	font-weight: 300;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 1px solid  #0099ff;
+	background:  #0099ff;
+	color: #fff;
+	transition: 1s;
+
+
+}
+.login .form-group .btn-primary:hover{
+	border: 1px solid  #800080;
+	background: transparent;
+	color:  #0099ff;
+	cursor: pointer;
+	
+
+}
+.login .form-group a{
+	font-size: 14px;
+	color: #800080;
+	text-decoration: none;
+}
+.login .form-group a:hover{
+	color: blue
+}
+
+
